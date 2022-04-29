@@ -1,0 +1,100 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+.menu{
+    float: left;
+    width: 10%;
+    background-color: black;
+    height: 100%;
+}
+.menu p{
+    color: white;
+    padding: 5px;
+    border-bottom: 1px solid rgb(172, 171, 171);
+}
+.info{
+    width: 90%;
+    float: left;
+}
+.logo{
+    width: 100%;
+    
+}
+.image-logo{
+    width: 300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.text{
+    
+    width: 90%;
+    text-align: center;
+    height: 100px;
+    background-color: rgb(199, 197, 195);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    
+}
+.content {
+    width: 90%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    min-height: 540px;
+    
+}
+.image-content{
+    float: left;
+}
+.content-css{
+    width: 30%;
+}
+.title-content{
+    display: inline;
+}
+.content-html{
+    width: 30%;
+}.content-url{
+    width: 30%;
+}
+.title{
+    width: 100%;
+    border-top: 1px solid black;
+}
+.title p{
+    margin-left: 5%;
+}
+/*mobile*/
+@media only screen  and (max-width: 46.1875em){
+    .menu{
+        width: 20%;
+    }
+    .info{
+        width: 80%
+    }
+    .image-logo{
+        width: 200px;
+    }
+    .text{
+        height: 200px;
+
+    }
+
+}
+/*table*/
+@media only screen and(min-width: 46.25em) and (max-width: 63.9375em){
+    .image-logo{
+        width: 100px;
+    }
+}
